@@ -90,6 +90,21 @@ footer {
 }
 .iconsBlock {
   margin-bottom: 15px;
+  font-size: 0;
+}
+
+.iconsBlock a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.iconsBlock a + a {
+  margin-left: 15px;
+}
+
+.iconsBlock a:hover .icon {
+  fill: rgb(127, 232, 127);
 }
 
 .icon {
@@ -97,9 +112,7 @@ footer {
   width: 50px;
   height: 50px;
 }
-.icon :hover {
-  fill: rgb(127, 232, 127);
-}
+
 .p-footer {
   font-family: "Syne Mono", monospace;
 }
